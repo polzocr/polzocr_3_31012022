@@ -7,10 +7,14 @@ h1, h2, h3 {
   font-family: "Shrikhand", cursive;
 }
 
-h1 {
+h1, h2 {
   font-size: 20px;
   font-weight: 500;
   line-height: 23px;
+}
+
+p {
+  font-size: 15px;
 }
 
 header {
@@ -53,6 +57,48 @@ header img {
 
 .fa-map-marker-alt {
   margin: auto 3% auto 0;
+}
+
+#operation {
+  margin-top: 10%;
+  height: 250px;
+}
+#operation h2 {
+  margin-left: 5%;
+}
+
+.operation {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.operation__item {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  line-height: 35px;
+  padding-right: 5%;
+  position: relative;
+}
+.operation__item::before {
+  content: "1";
+  background-color: #9356DC;
+  color: white;
+  border-radius: 30px;
+  padding: 4% 6% 4% 6%;
+  transform: scale(0.4);
+  font-size: 35px;
+  position: absolute;
+  left: -29px;
+}
+.operation i {
+  margin: auto -4% auto 0;
+  color: grey;
+  font-size: 20px;
 }
 
 .button {
