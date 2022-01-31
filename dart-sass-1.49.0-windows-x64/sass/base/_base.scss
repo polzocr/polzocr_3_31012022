@@ -1,3 +1,23 @@
-body p{
-    color:$secondary-color;
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+header {
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Shrikhand', cursive;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+p {
+
 }

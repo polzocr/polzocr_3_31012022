@@ -1,5 +1,70 @@
-body p {
-  color: #FF79DA;
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: "Shrikhand", cursive;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+header {
+  text-align: center;
+}
+header img {
+  width: 50%;
+}
+
+.banner {
+  border-top: 2px solid #cac7c7;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.banner__location {
+  background-color: rgba(218, 218, 218, 0.884);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  height: 16%;
+}
+.banner__location p {
+  font-size: 15px;
+}
+.banner__title {
+  background-color: whitesmoke;
+  height: 100%;
+}
+.banner__title h1 {
+  padding: 4% 13% 0 13%;
+}
+.banner__title p {
+  padding: 0 3% 0 3%;
+  font-size: 15px;
+  color: grey;
+}
+
+.fa-map-marker-alt {
+  margin: auto 3% auto 0;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  font-weight: 700;
+  border-radius: 55px;
+  border: none;
+  box-shadow: 0px 0px 8px #949393;
+  margin-top: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
