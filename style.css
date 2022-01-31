@@ -13,6 +13,11 @@ h1, h2 {
   line-height: 23px;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
 p {
   font-size: 15px;
 }
@@ -99,6 +104,47 @@ header img {
   margin: auto -4% auto 0;
   color: grey;
   font-size: 20px;
+}
+
+#restaurants {
+  margin-top: 20%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: whitesmoke;
+}
+
+.restaurant {
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.restaurant__card {
+  border-radius: 15px;
+  height: 23%;
+  display: flex;
+  flex-direction: column;
+}
+.restaurant__card__info {
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 5px;
+  padding: 2% 2% 0 4%;
+}
+.restaurant__card__info i {
+  margin: auto 3% auto 0;
+  font-size: 23px;
+}
+.restaurant__card img {
+  object-fit: cover;
+  height: 75%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .button {
