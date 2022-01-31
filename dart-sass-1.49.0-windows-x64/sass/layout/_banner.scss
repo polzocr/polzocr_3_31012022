@@ -1,0 +1,39 @@
+.banner{
+    border-top: 2px solid rgb(202, 199, 199) ;
+    height:300px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    &__location{
+        background-color: $secondary-background;
+        font-weight: 500;
+
+        display: flex;
+        justify-content: center;
+        height: 16%;
+        p {
+            font-size: 15px;
+        }
+    }
+    &__title{
+        background-color: $primary-background;
+        height: 100%;
+        h1 {
+            padding: 4% 13% 0 13%;
+        }
+        p{
+            padding: 0 3% 0 3%;
+            font-size: 15px;
+            color:grey;   
+        }
+       
+    }
+}
+
+
+.fa-map-marker-alt{
+    margin: auto 3% auto 0;
+   
+
+}
