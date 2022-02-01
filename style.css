@@ -29,6 +29,10 @@ a p {
   color: black;
 }
 
+a i {
+  color: black;
+}
+
 p {
   font-size: 15px;
 }
@@ -136,6 +140,7 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-bottom: 5%;
 }
 .restaurant__card {
   border-radius: 15px;
