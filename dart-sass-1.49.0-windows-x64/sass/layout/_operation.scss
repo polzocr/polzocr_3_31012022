@@ -26,12 +26,13 @@
         line-height: 35px;
         padding-right: 5%;
         position: relative;
+        box-shadow: 0px 0px 5px rgb(223, 221, 221) ;
         &::before{
             content:"1";
             background-color: $primary-color;
             color:white;
             border-radius:30px;   
-            padding: 4% 6% 4% 6%;
+            padding: 14px 18px 11px 19px;
             transform: scale(0.4);
             font-size: 35px;
             position:absolute;
