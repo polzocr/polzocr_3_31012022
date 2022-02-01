@@ -176,31 +176,26 @@ header img {
   width: 100%;
 }
 
+.links ul {
+  list-style-type: none;
+  line-height: 0px;
+  padding-left: 0;
+}
 .links a {
   text-decoration: none;
+  display: flex;
+}
+.links a i {
+  color: white;
+  width: 20px;
+  margin: auto 2% auto 0;
+}
+.links p {
   color: white;
 }
-.links__1 {
-  display: flex;
-  margin-top: -2%;
-}
-.links__1 i {
-  font-size: 13px;
-  width: 20px;
-  margin-top: 6%;
-}
-.links__2 {
-  display: flex;
-  margin-top: -5%;
-}
-.links__2 i {
-  font-size: 13px;
-  width: 20px;
-  margin-top: 6%;
+
+.fa-handshake {
   transform: rotate(-45deg);
-}
-.links__3 {
-  margin-top: -2%;
 }
 
 .button {

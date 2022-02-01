@@ -1,29 +1,26 @@
 .links {
+    ul{
+        list-style-type: none;
+        line-height: 0px;
+        padding-left: 0;
+    }
     a{
         text-decoration: none;
+        display: flex;
+        i{
+            color: white;
+            width: 20px;
+            margin: auto 2% auto 0 ;
+            
+        }
+    }
+    p{
         color: white;
-    }
-    &__1 {
-        display: flex;
-        margin-top: -2%;
-        i{
-            font-size: 13px;
-            width:20px;
-            margin-top: 6%;
-        }
-    }
-    &__2 {
-        display: flex;
-        margin-top: -5%;
-        i{
-            font-size: 13px;
-            width:20px;
-            margin-top: 6%;
-            transform: rotate(-45deg);
-        }
-    }
-    &__3 {
-        margin-top:-2%
-    }
-   
+    } 
+    
 }
+
+.fa-handshake {
+    transform: rotate(-45deg);
+}
+
