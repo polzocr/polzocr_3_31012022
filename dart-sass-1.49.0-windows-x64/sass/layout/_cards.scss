@@ -15,8 +15,14 @@
     &__card{
         border-radius: 15px;
         height: 23%;
-        display: flex;
-        flex-direction: column;
+        
+        a {
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+        }
         &__info{
             background-color: white;
             border-bottom-left-radius: 15px;
@@ -36,6 +42,7 @@
             height: 75%;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
+            width: 100%;
             
         }
     }
