@@ -69,11 +69,45 @@
             
         }
         &__item {
+            display: flex;
+            justify-content: space-between;
             border-radius: 10px;
             padding: 0% 0 0 3%;
             background-color: white;
-            display: flex;
-            flex-direction: column;
+            overflow: hidden;
+            
+            &__content{
+                
+                display: flex;
+                flex-direction: column;
+                min-width: 80%;
+                width: 100%;
+            }
+
+            &__check{
+                
+                width: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $tertiary-color;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                opacity: 0;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+            &:hover > &__check{
+                width: 19%;
+                transition: width 500ms ease-in-out;
+                opacity: 1;
+                > .fa-check{
+                    transform: rotate(360deg);
+                    transition: transform 600ms ease-in-out;
+                }
+            }
+            
             
            
             
@@ -116,7 +150,9 @@
     }
 }
 
-
-.footer__menu{
-    
+.fa-check{
+    color:$tertiary-color;
+    background-color: white;
+    border-radius: 50px;
+    padding: 2px 2px 2px 2px;
 }
