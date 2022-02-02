@@ -127,6 +127,9 @@ header img {
   color: grey;
   font-size: 20px;
 }
+.operation p {
+  font-weight: bold;
+}
 
 #restaurants {
   margin-top: 20%;
@@ -232,7 +235,7 @@ header img {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 .menu__title {
   display: flex;
