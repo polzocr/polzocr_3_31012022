@@ -27,5 +27,5 @@ $shadow-color:rgb(148, 147, 147);
 }
 
 @mixin box-shadow($shadows:$shadow, $color:$shadow-color) {
-    box-shadow: 0px 5px $shadows $color;
+    box-shadow: 0px 3px $shadows $color;
 }
