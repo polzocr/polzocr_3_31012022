@@ -12,8 +12,24 @@
         display: flex;
         justify-content: center;
         height: 16%;
-        p {
-            font-size: 15px;
+
+        padding-left: 70px;
+        &__city{
+            
+            display: flex;
+            justify-content: center;
+            
+            input {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 10px;
+                border: none;
+                background-color: rgba(223, 219, 219, 0.884);
+                &:focus{
+                    outline-color: $primary-color;
+                }
+            }
         }
     }
     &__title{
@@ -24,7 +40,7 @@
         }
         p{
             padding: 0 3% 0 3%;
-            font-size: 15px;
+            font-size: 14px;
             color:grey;   
         }
        
