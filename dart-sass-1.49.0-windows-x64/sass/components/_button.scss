@@ -8,9 +8,12 @@
     
     border-radius: 55px;
     border: none;
-    box-shadow: 0px 0px 8px rgb(148, 147, 147) ;
+    @include box-shadow ;
 
     margin-top: 5%;
 
     cursor: pointer;
+    &:hover {
+        @include box-shadow(20px, darken($shadow-color,30))
+    }
 }

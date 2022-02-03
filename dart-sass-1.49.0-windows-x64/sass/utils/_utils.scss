@@ -5,6 +5,9 @@ $tertiary-color: #99E2D0;
 $primary-background: rgb(245, 245, 245);
 $secondary-background : rgba(218, 218, 218, 0.884);
 
+$shadow : 8px;
+$shadow-color:rgb(148, 147, 147);
+
 @mixin big-mobile{
     @media all and (max-width: 767px) and (min-width:500px){
         @content;
@@ -21,4 +24,8 @@ $secondary-background : rgba(218, 218, 218, 0.884);
     @media all and (min-width:992px) {
         @content;
     }
+}
+
+@mixin box-shadow($shadows:$shadow, $color:$shadow-color) {
+    box-shadow: 0px 5px $shadows $color;
 }
