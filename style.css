@@ -81,6 +81,9 @@ header img {
 .banner__location__city input:focus {
   outline-color: #9356DC;
 }
+.banner__location__city input::placeholder {
+  color: black;
+}
 .banner__title {
   background-color: whitesmoke;
   height: 100%;
