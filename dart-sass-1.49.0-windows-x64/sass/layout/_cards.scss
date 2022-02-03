@@ -13,6 +13,41 @@
     flex-direction: column;
     justify-content: space-around;
     padding-bottom: 5%;
+    position: relative;
+    
+    
+    &__card:nth-child(1)::after {
+        content: "Nouveau";
+        color:darken($tertiary-color,40);
+        background-color: $tertiary-color;
+        border-radius: 2px;
+        font-size: 13px;
+        font-weight: bold;
+        width: 75px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:20px;
+        right: 10px;
+    }
+    &__card:nth-child(2)::after {
+        content: "Nouveau";
+        color:darken($tertiary-color,40);
+        background-color: $tertiary-color;
+        border-radius: 2px;
+        font-size: 13px;
+        font-weight: bold;
+        width: 75px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:16px;
+        right: 10px;
+    }
     &__card{
         border-radius: 15px;
         height: 23%;

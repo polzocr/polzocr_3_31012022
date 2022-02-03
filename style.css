@@ -161,6 +161,39 @@ header img {
   flex-direction: column;
   justify-content: space-around;
   padding-bottom: 5%;
+  position: relative;
+}
+.restaurant__card:nth-child(1)::after {
+  content: "Nouveau";
+  color: #278870;
+  background-color: #99E2D0;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  width: 75px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.restaurant__card:nth-child(2)::after {
+  content: "Nouveau";
+  color: #278870;
+  background-color: #99E2D0;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  width: 75px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 16px;
+  right: 10px;
 }
 .restaurant__card {
   border-radius: 15px;
