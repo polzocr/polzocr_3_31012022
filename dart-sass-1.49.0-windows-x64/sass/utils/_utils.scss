@@ -29,3 +29,14 @@ $shadow-color:rgb(148, 147, 147);
 @mixin box-shadow($shadows:$shadow, $color:$shadow-color) {
     box-shadow: 0px 3px $shadows $color;
 }
+
+@keyframes show {
+    0% {
+        transform: translateY(25px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

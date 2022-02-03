@@ -1,3 +1,13 @@
+@keyframes show {
+  0% {
+    transform: translateY(25px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -333,6 +343,7 @@ header img {
    color: rgb(68, 67, 67);*/
 }
 .menu__items {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -524,6 +535,46 @@ header img {
 }
 .formu:hover {
   cursor: pointer;
+}
+
+#animation1 {
+  animation: show 1000ms;
+}
+
+#animation2 {
+  animation: show 1400ms;
+}
+
+#animation3 {
+  animation: show 1800ms;
+}
+
+#animation4 {
+  animation: show 2200ms;
+}
+
+#animation5 {
+  animation: show 2600ms;
+}
+
+#animation6 {
+  animation: show 3000ms;
+}
+
+#animation7 {
+  animation: show 3400ms;
+}
+
+#animation8 {
+  animation: show 3800ms;
+}
+
+#animation9 {
+  animation: show 4200ms;
+}
+
+#animation10 {
+  animation: show 4600ms;
 }
 
 /*# sourceMappingURL=style.css.map */
