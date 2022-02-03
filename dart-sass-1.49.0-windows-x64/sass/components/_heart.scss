@@ -1,0 +1,32 @@
+.fa-heart{
+    margin: auto 3% auto 0;
+    font-size: 23px;
+    position: absolute;
+    right: 3%;
+    bottom: 9%;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    
+    &:hover{
+        cursor: pointer;
+        color: #d37df5;
+        -webkit-text-stroke: 1px#d37df5;
+        transition: all 2s;
+
+     }
+     
+}
+
+
+.formu {
+    position: absolute;
+    right: 6%;
+    bottom: 9.5%;
+    width: 23px;
+    opacity: 0;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
