@@ -26,7 +26,7 @@
         line-height: 35px;
         padding-right: 5%;
         position: relative;
-        box-shadow: 0px 0px 5px rgb(223, 221, 221) ;
+        @include box-shadow(20px,lighten($shadow-color,30));
         &::before{
             content:"1";
             background-color: $primary-color;
@@ -37,9 +37,14 @@
             font-size: 35px;
             position:absolute;
             left:-29px;
-            
-    
-            
+        }
+       
+        &:hover{
+            background-color: darken($primary-background,5);
+            cursor: pointer;
+            i{
+                color:$primary-color;
+            }
         }
 
     }
@@ -53,3 +58,28 @@
     }
     
 }
+
+#eat::before {
+    content:"3";
+            background-color: $primary-color;
+            color:white;
+            border-radius:30px;   
+            padding: 14px 18px 11px 19px;
+            transform: scale(0.4);
+            font-size: 35px;
+            position:absolute;
+            left:-29px;
+}
+
+#compose::before {
+    content:"2";
+            background-color: $primary-color;
+            color:white;
+            border-radius:30px;   
+            padding: 14px 18px 11px 19px;
+            transform: scale(0.4);
+            font-size: 35px;
+            position:absolute;
+            left:-29px;
+}
+
