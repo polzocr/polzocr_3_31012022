@@ -133,6 +133,21 @@ header img {
   font-size: 14px;
   color: grey;
 }
+.banner__title a {
+  text-decoration: none;
+  display: block;
+  margin: 12% auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #f0eeee;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.banner__title a:hover {
+  cursor: pointer;
+}
 
 .fa-map-marker-alt {
   margin: auto 3% auto 0;

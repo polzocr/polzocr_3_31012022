@@ -46,6 +46,22 @@
             font-size: 14px;
             color:grey;   
         }
+        a{
+            text-decoration: none;
+            display: block;
+            margin: 12% auto 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            color: rgb(240, 238, 238);
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+        }
+        a:hover {
+            cursor: pointer;
+        }
+        
        
     }
 }
