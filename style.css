@@ -8,6 +8,33 @@
     opacity: 1;
   }
 }
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  90% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes load_page {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -575,6 +602,50 @@ header img {
 
 #animation10 {
   animation: show 4600ms;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loader-1 {
+  opacity: 0;
+  position: absolute;
+  border-radius: 50%;
+  border-top: 5px solid #9356DC;
+  width: 140px;
+  height: 140px;
+  animation: load 2.4s linear;
+  margin-top: 30%;
+}
+
+.loader-2 {
+  opacity: 0;
+  border-radius: 50%;
+  border-top: 5px solid #FF79DA;
+  width: 140px;
+  height: 140px;
+  animation: load 1.8s 600ms ease-in-out;
+  position: absolute;
+  margin-top: 30%;
+}
+
+.loader-3 {
+  opacity: 0;
+  border-radius: 50%;
+  border-top: 5px solid #99E2D0;
+  width: 140px;
+  height: 140px;
+  animation: load 1.2s 1200ms ease-in-out;
+  position: absolute;
+  margin-top: 30%;
+}
+
+#load__header, #load__banner, #operation, #restaurants, #load__footer {
+  animation: load_page 2900ms ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
