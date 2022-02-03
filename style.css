@@ -202,11 +202,19 @@ header img {
   display: flex;
 }
 .header__arrow {
-  width: 20%;
-  margin: auto 8% auto -8px;
+  width: 10%;
+  margin: auto 0 auto 0;
 }
 .header i {
   color: #363636;
+  font-size: 1.2rem;
+}
+.header i:hover {
+  color: #9356DC;
+  cursor: pointer;
+}
+.header img {
+  margin: 1% 0 auto 20%;
 }
 
 .menu__banner {
