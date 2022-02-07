@@ -1,0 +1,89 @@
+.banner__title {
+    h1 {
+        @include tablets{
+            padding-top: 5%;
+        }
+
+        @include desktop {
+            padding: 2% 1% 1% 1%;
+        }
+    }
+    a {
+        @include tablets {
+            margin: 5% auto 0 auto;
+        }
+
+        @include desktop {
+            margin: 3% auto 0 auto;
+        }
+    }
+}
+
+.operation {
+    &__item{
+        @include desktop {
+            justify-content: center;
+        }
+        @include tablets {
+            justify-content: center;
+        }
+        i {
+            @include desktop{
+                margin: auto 3% auto 0;
+            }
+            @include tablets{
+                margin: auto 2% auto 0;
+            }
+        }
+    }
+}
+#restaurants {
+    @include tablets{
+        margin-top: 10% ;
+    }
+    @include desktop {
+        margin-top: 10%;
+    }
+}
+.restaurant {
+    @include tablets {
+        gap: 30px;
+        height: 1550px;
+    }
+    @include desktop {
+        gap: 30px;
+        height: 1550px;
+    }
+
+}
+
+footer {
+    @include desktop {
+        padding: 3% 0 1% 5%;
+    }
+}
+
+.links a i {
+    @include desktop {
+        margin-right: 5px;
+    }
+}
+
+.header {
+    &__arrow{
+        a{
+            i{
+                @include desktop {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}
+
+#loader-desktop {
+    @include desktop {
+        margin-top: 10%;
+    }
+}
+

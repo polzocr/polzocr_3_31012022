@@ -330,6 +330,96 @@ header img {
   transform: rotate(-45deg);
 }
 
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .banner__title h1 {
+    padding-top: 5%;
+  }
+}
+@media all and (min-width: 992px) {
+  .banner__title h1 {
+    padding: 2% 1% 1% 1%;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .banner__title a {
+    margin: 5% auto 0 auto;
+  }
+}
+@media all and (min-width: 992px) {
+  .banner__title a {
+    margin: 3% auto 0 auto;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .operation__item {
+    justify-content: center;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .operation__item {
+    justify-content: center;
+  }
+}
+@media all and (min-width: 992px) {
+  .operation__item i {
+    margin: auto 3% auto 0;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .operation__item i {
+    margin: auto 2% auto 0;
+  }
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  #restaurants {
+    margin-top: 10%;
+  }
+}
+@media all and (min-width: 992px) {
+  #restaurants {
+    margin-top: 10%;
+  }
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .restaurant {
+    gap: 30px;
+    height: 1550px;
+  }
+}
+@media all and (min-width: 992px) {
+  .restaurant {
+    gap: 30px;
+    height: 1550px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  footer {
+    padding: 3% 0 1% 5%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .links a i {
+    margin-right: 5px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .header__arrow a i {
+    font-size: 2.5rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+  #loader-desktop {
+    margin-top: 10%;
+  }
+}
+
 .header {
   display: flex;
 }

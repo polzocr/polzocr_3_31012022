@@ -14,8 +14,8 @@ $shadow-color:rgb(148, 147, 147);
     }
 }
 
-@mixin tablets {
-    @media all and (max-width:991px) and (min-width:768) {
+@mixin tablets{
+    @media all and (max-width:991px) and (min-width:768px) {
         @content;
     }
 }

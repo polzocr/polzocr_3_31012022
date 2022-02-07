@@ -2,11 +2,14 @@
 
 @import "base/base";
 
+
+
 @import "layout/header";
 @import "layout/banner";
 @import "layout/operation";
 @import "layout/cards";
 @import "layout/footer";
+@import "components/responsive";
 
 @import "pages/menu1";
 @import "pages/menu2";
