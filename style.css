@@ -330,6 +330,18 @@ header img {
   transform: rotate(-45deg);
 }
 
+@media all and (min-width: 992px) {
+  .header__arrow a i {
+    font-size: 2.5rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+  #loader-desktop {
+    margin-top: 10%;
+  }
+}
+
 @media all and (max-width: 991px) and (min-width: 768px) {
   .banner__title h1 {
     padding-top: 5%;
@@ -352,8 +364,29 @@ header img {
 }
 
 @media all and (min-width: 992px) {
+  #operation {
+    height: 80px;
+    margin-top: 5%;
+  }
+}
+@media all and (min-width: 992px) {
+  #operation h2 {
+    margin-left: 6%;
+    margin-bottom: 3%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .operation {
+    flex-direction: row;
+  }
+}
+@media all and (min-width: 992px) {
   .operation__item {
     justify-content: center;
+    height: 60px;
+    width: 30%;
+    padding-right: 0;
   }
 }
 @media all and (max-width: 991px) and (min-width: 768px) {
@@ -382,23 +415,72 @@ header img {
     margin-top: 10%;
   }
 }
+@media all and (min-width: 992px) {
+  #restaurants h2 {
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+  #restaurants h2 {
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+}
 
 @media all and (max-width: 991px) and (min-width: 768px) {
   .restaurant {
-    gap: 30px;
-    height: 1550px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 @media all and (min-width: 992px) {
   .restaurant {
-    gap: 30px;
-    height: 1550px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .restaurant__card {
+    width: 45%;
+    height: 45%;
+  }
+}
+@media all and (min-width: 992px) {
+  .restaurant__card {
+    width: 45%;
+    height: 45%;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .restaurant__card a img {
+    height: 80%;
+  }
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  #resto1 {
+    height: 130%;
   }
 }
 
 @media all and (min-width: 992px) {
   footer {
-    padding: 3% 0 1% 5%;
+    padding: 3% 0 0% 5%;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+  footer {
+    padding-bottom: 3%;
+  }
+}
+@media all and (min-width: 992px) {
+  footer h3 {
+    margin-left: 2%;
   }
 }
 
@@ -408,15 +490,29 @@ header img {
   }
 }
 
-@media all and (min-width: 992px) {
-  .header__arrow a i {
-    font-size: 2.5rem;
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .links ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
   }
 }
-
 @media all and (min-width: 992px) {
-  #loader-desktop {
-    margin-top: 10%;
+  .links ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    margin: 3% 0 0 2%;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .links ul li {
+    width: 50%;
+  }
+}
+@media all and (min-width: 992px) {
+  .links ul li {
+    width: 25%;
   }
 }
 

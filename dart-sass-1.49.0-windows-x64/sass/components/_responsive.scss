@@ -1,3 +1,23 @@
+.header {
+    &__arrow{
+        a{
+            i{
+                @include desktop {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}
+
+#loader-desktop {
+    @include desktop {
+        margin-top: 10%;
+    }
+}
+
+
+
 .banner__title {
     h1 {
         @include tablets{
@@ -19,10 +39,29 @@
     }
 }
 
+
+#operation {
+    @include desktop {
+        height: 80px;
+        margin-top: 5%;
+    }
+    h2 {
+        @include desktop {
+            margin-left: 6%;
+            margin-bottom: 3%;
+        }
+    }
+}
 .operation {
+    @include desktop {
+        flex-direction: row;
+    }
     &__item{
         @include desktop {
             justify-content: center;
+            height: 60px;
+            width: 30%;
+            padding-right: 0;
         }
         @include tablets {
             justify-content: center;
@@ -44,22 +83,65 @@
     @include desktop {
         margin-top: 10%;
     }
+    h2 {
+        @include desktop{
+            margin-left: 3%;
+            margin-bottom: 3%;
+        }
+        @include tablets{
+            margin-left: 3%;
+            margin-bottom: 5%;
+        }
+    }
 }
 .restaurant {
     @include tablets {
-        gap: 30px;
-        height: 1550px;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     @include desktop {
-        gap: 30px;
-        height: 1550px;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    &__card {
+        @include tablets {
+            width: 45%;
+            height: 45%;
+        }
+        @include desktop {
+            width: 45%;
+            height: 45%;
+        }
+        a img {
+            @include tablets {
+                height: 80%;
+            }
+        }
     }
 
+}
+
+#resto1 {
+    @include tablets {
+        height: 130%;
+    }
 }
 
 footer {
     @include desktop {
-        padding: 3% 0 1% 5%;
+        padding: 3% 0 0% 5%;
+    }
+    @include tablets {
+        padding-bottom: 3%;
+    }
+    h3 {
+        @include desktop {
+            margin-left: 2%;
+        }
     }
 }
 
@@ -69,21 +151,29 @@ footer {
     }
 }
 
-.header {
-    &__arrow{
-        a{
-            i{
-                @include desktop {
-                    font-size: 2.5rem;
-                }
+.links {
+    ul {
+        @include tablets {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100px;
+        }
+        @include desktop {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100px;
+            margin: 3% 0 0 2%;
+        }
+        li {
+            @include tablets {
+                width: 50%;
+            }
+            @include desktop {
+                width: 25%;
             }
         }
     }
 }
 
-#loader-desktop {
-    @include desktop {
-        margin-top: 10%;
-    }
-}
+
 
